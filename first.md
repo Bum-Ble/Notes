@@ -1,2 +1,32 @@
-## 这是第一个md
-酷
+# git快捷键配置
+## 打开终端
+### 第一步：创建配置文件，并打开配置文件。
+备注：查看shell模式
+```
+echo $0
+```
+shell为zsh时，配置文件为.zshrc
+```
+touch ~/.zshrc
+open ~/.zshrc
+```
+shell为bash时，配置文件为.bashrc
+```
+touch ~/.bashrc
+open ~/.bashrc
+```
+### 第二步：添加配置文件内容
+```
+alias ga="git add"
+alias gc="git commit -v"
+alias gl="git pull"
+alias gp="git push"
+alias gco="git checkout"
+alias gst="git status -sb"
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(green)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -- | less"
+```
+### 第三步：读取并执行配置文件
+```
+source ~/.zshrc
+source ~/.bashrc
+```
