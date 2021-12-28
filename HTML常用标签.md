@@ -54,7 +54,7 @@
 ><iframe stle="border:none;width:900px;height:500px" src="" name="xxx"></iframe>
 >```
 
-## table标签
+## table 标签
 展示表格
 ### 属性
 * table
@@ -97,4 +97,51 @@
 * border-collapse ： 单元格边框合并
 * border-spacing ： 单元格边框间隔
 
-## img标签
+## img 标签
+### 作用
+* 发出 get 请求，展示一张图片
+### 属性
+* alt / height / width / src ; 只写height或width时，另外一个属性会自适应
+### 事件
+* onload / onerror
+### 响应式
+* max-width: 100% ; 根据设备大小调整宽度，宽度占满屏幕
+### 可替换元素
+考试可能会问，被问几率 30%
+
+## form 标签
+### 作用
+* 发 get 或 post 请求，然后刷新页面
+### 属性
+* action  请求地址
+* autocomplete : on / off，自动填充
+* method : GET / POST
+* target : 设定在哪个窗口打开链接
+> #### 注意：
+> ```<input type="submit"></input>```和```<button type="submit"></button>```的区别
+> * input 标签不能添加其他的标签
+> * button 标签里面还能嵌套其他标签，比如```<strong>```、```<img>```
+> * button 中的 type 如果不设置值，那么默认就会设置为submit
+### 事件
+* onsubmit
+## input 标签
+### 作用
+* 让用户输入内容
+### 属性
+* 类型 type ： button / checkbox / email / file / hidden / number / password / radio / search / submit / tel / text
+* 其他 ： name / autofocus / checked / disabled / maxlength / pattern / value / placeholder
+### 事件
+* onchange / onfocus / onblur
+### 验证器
+* HTML 5 新增功能（require属性）
+```html
+<input type='text' required />
+```
+> ### 注意：
+> * 一般不监听input的click事件
+> * form里面的input要有name
+> * form里面要有type=submit才能触发submit事件 
+### 其他输入标签
+* select + option
+* textarea
+* label
