@@ -89,7 +89,7 @@
 </table>
 ```
 #### 代码结果：
-![代码结果](http://github.com/Bum-Ble/Notes/blob/main/images/table.png)
+![代码结果](https://github.com/Bum-Ble/Notes/blob/main/images/table.png)
 ### 样式
 * table-layout :
   - auto : 根据内容自动设置单元格大小
