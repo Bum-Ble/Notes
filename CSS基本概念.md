@@ -28,7 +28,7 @@
 * 兄弟合并是符合预期的
 * 兄弟合并可以用 inline-block 消除
 
-## 3. 两种盒模型（border-box 更符合人类思维）
+## 3. 两种盒模型box-sizing（border-box 更符合人类思维）
 ### 分别是
 * content-box 内容盒 ： 内容就是盒子的边界
 * border-box 边框盒 ： 框架才是盒子的边界
