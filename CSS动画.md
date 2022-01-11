@@ -7,5 +7,7 @@
 4. Layout布局(文档流、盒模型、计算大小和位置)
 5. Paint绘制(把边框颜色、文字颜色、阴影等画出来)
 6. Compose合成(根据层叠关系展示画面)
-#### 
-![代码结果](https://github.com/Bum-Ble/Notes/blob/main/images/css01.png)
+
+![image](https://github.com/Bum-Ble/Notes/blob/main/images/css01.png)
+
+![image](https://github.com/Bum-Ble/Notes/blob/main/images/css02.png)
